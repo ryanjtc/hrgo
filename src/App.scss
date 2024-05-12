@@ -1,0 +1,140 @@
+/*Header Styles*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12394f;
+    color: white;
+    padding: 30px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.custom-link {
+    text-decoration: none;
+    color: white;
+}
+
+.login-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #12394f;
+}
+
+.login-button:hover {
+    background: none;
+}
+
+/*CreateAcct Section*/
+.hero-section {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.hero-title {
+    font-size: 2rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.authVerification-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.authVerification {
+    background-color: #eef2fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/*Project Section*/
+.project-section {
+    background-size: cover;
+    background-position: center;
+    background-color: #eef2fa;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+.project-section h2 {
+    display: flex;
+    align-items: center;
+}
+
+.infoList {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.infoList-item {
+    display: flex;
+    align-items: center;
+}
+
+.project-section img {
+    height: 400px;
+}
+
+@media (max-width: 840px) {
+    .project-section{
+        flex-direction: column;
+    }
+
+}

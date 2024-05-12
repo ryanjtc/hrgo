@@ -1,0 +1,22 @@
+.mainMenu-nav {
+    display: flex;
+    background-color: #282c34;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 5px #e1e1f1;
+    padding: 10px;
+}
+
+.mainMenu-item {
+    margin: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menuButton {
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #007bff;
+    cursor: pointer;
+}
